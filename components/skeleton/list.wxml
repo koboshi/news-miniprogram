@@ -1,0 +1,11 @@
+<!--components/skeleton/list.wxml-->
+<block wx:for="{{loopArray}}" wx:key="*this">
+  <view>
+    <view style="padding-left: 50rpx;padding-right: 50rpx;">
+      <wux-skeleton active="{{ true }}">
+        <wux-skeleton-paragraph rows="2" rounded="{{ true }}" />
+      </wux-skeleton>
+    </view>
+    <wux-divider show-text="{{ false }}" dashed />
+  </view>
+</block>

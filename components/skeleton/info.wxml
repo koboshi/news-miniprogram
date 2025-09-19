@@ -1,0 +1,37 @@
+<!--components/skeleton/info.wxml-->
+<view style="padding:40px;">
+  <view style="text-align: left;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="3" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+  <view style="margin-top: 5px; text-align: left;">
+  </view>
+</view>
+<view style="padding-right: 15px;padding-left: 15px; padding-bottom: 40px;">
+  <view style="margin-bottom: 20rpx;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="2" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+  <view style="margin-bottom: 20rpx;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="4" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+  <view style="margin-bottom: 20rpx;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="3" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+  <view style="margin-bottom: 20rpx;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="2" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+  <view style="margin-bottom: 20rpx;">
+    <wux-skeleton active="{{ true }}">
+      <wux-skeleton-paragraph rows="4" rounded="{{ true }}" />
+    </wux-skeleton>
+  </view>
+</view>

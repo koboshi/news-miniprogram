@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新闻详情",
+  "usingComponents": {
+    "skeleton-info": "../../components/skeleton/info"
+  }
+}

@@ -1,0 +1,2 @@
+<!--components/footer/index.wxml-->
+<wux-footer theme="positive" label="koboshi" />

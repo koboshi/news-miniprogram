@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "新闻列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "skeleton-list": "../../components/skeleton/list",
+    "wux-safe-area": "../../lib/wux-weapp/safe-area/index",
+    "wux-media": "../../lib/wux-weapp/media/index",
+    "wux-divider": "../../lib/wux-weapp/divider/index",
+    "wux-spin": "../../lib/wux-weapp/spin/index"
+  }
+}

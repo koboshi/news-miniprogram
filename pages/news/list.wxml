@@ -1,0 +1,20 @@
+<!--pages/news/list.wxml-->
+<view class="page">
+
+  <!--列表骨架屏 begin-->
+  <block wx:if="{{skeletonShow}}">
+    <skeleton-list></skeleton-list>
+  </block>
+  <!--列表骨架屏 begin-->
+  <block wx:for="{{newsList}}" wx:key="id">
+    <wux-media data-id="{{item.id}}" bind:tap="itemOnTap" title="{{item.title}}" label="{{item.ellipsis}}"></wux-media>
+    <wux-divider show-text="{{ false }}" dashed />
+  </block>
+  <view wx:if="{{listLoadingShow}}" class="wux-text--center">
+    <wux-spin wux-class="spin" size="default" />
+  </view>
+
+  <footer></footer>
+
+  <wux-safe-area safeArea="bottom" />
+</view>

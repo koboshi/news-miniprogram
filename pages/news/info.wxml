@@ -1,0 +1,20 @@
+<!--pages/news/info.wxml-->
+<view class="page">
+
+  <!--详情骨架屏 begin-->
+  <block wx:if="{{skeletonShow}}">
+    <skeleton-info></skeleton-info>
+  </block>
+  <!--详情骨架屏 begin-->
+
+  <view class="page__hd">
+    <view class="page__title">{{newsInfo.title}}</view>
+    <view class="page__desc wux-ellipsis">{{newsInfo.content}}</view>
+  </view>
+  <view class="page__bd page__bd_spacing page__bd_bottom-0">
+    <view class="wux-margin-bottom--10" wx:for="{{newsInfo.contentList}}" wx:key="*this">{{item}}</view>
+    <view class="page__desc">发布于：{{newsInfo.publishDate}}</view>
+  </view>
+
+  <footer></footer>
+</view>

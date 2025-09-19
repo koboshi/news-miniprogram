@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wux-skeleton": "../../lib/wux-weapp/skeleton/index",
+    "wux-skeleton-paragraph": "../../lib/wux-weapp/skeleton-paragraph/index",
+    "wux-divider": "../../lib/wux-weapp/divider/index"
+  }
+}

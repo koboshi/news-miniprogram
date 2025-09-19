@@ -1,0 +1,11 @@
+<!--custom-tab-bar/index.wxml-->
+<view class="tab-bar">
+  <wux-tabbar controlled="true" position="bottom" current="{{current}}">
+    <block wx:for="{{list}}" wx:key="index">
+      <wux-tabbar-item key="{{item.key}}" title="{{item.text}}" disabled="{{item.disabled}}" data-page="{{item.pagePath}}" data-key="{{item.keey}}" bind:click="tabBarOnClick">
+        <wux-icon wux-class="icon" type="{{item.icon}}" size="22" slot="icon-on" />
+        <wux-icon wux-class="icon" type="{{item.icon}}" size="22" slot="icon-off" />
+      </wux-tabbar-item>
+    </block>
+  </wux-tabbar>
+</view>

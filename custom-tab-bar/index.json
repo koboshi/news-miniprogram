@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wux-icon": "../lib/wux-weapp/icon/index",
+    "wux-tabbar": "../lib/wux-weapp/tabbar/index",
+    "wux-tabbar-item": "../lib/wux-weapp/tabbar-item/index"
+  }
+}
